@@ -151,10 +151,10 @@ function drawGame() {
 		
 		if(dayNo < 13) {
 			if(mapNo == 0) {
-				ctx.fillText('Посидеть сегодня дома [H]', 610, 20);
+				ctx.fillText('Посидеть сегодня дома [H]', 450, 20);
 			}
 			if(mapNo == 2) {
-				ctx.fillText('Телепорт домой [T]', 660, 20);
+				ctx.fillText('Телепорт домой [T]', 500, 20);
 			}
 		}
 	}
